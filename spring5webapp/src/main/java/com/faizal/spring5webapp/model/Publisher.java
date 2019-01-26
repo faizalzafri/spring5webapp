@@ -14,7 +14,13 @@ public class Publisher {
 	private String name;
 	private String address;
 
+	public Publisher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public Publisher(String name, String address) {
+		super();
 		// TODO Auto-generated constructor stub
 		this.name = name;
 		this.address = address;
